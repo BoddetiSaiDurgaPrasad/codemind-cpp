@@ -1,9 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main()
-{
-    int x,y,z;
-    cin>>x>>y>>z;
-    cout<<(x*y*z)/100;
+int main(){
+    int p,t,r;
+    cin>>p>>t>>r;
+    cout<<(p*t*r)/100;
     return 0;
 }
