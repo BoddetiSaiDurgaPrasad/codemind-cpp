@@ -4,9 +4,14 @@ int main(){
     int n;
     cin>>n;
     while(n--){
-        int a;
+        int a,c=0;
         cin>>a;
-        cout<<__builtin_popcount(a)<<"
+        
+        while(a){
+            if(a&1==1)c++;
+            a=a>>1;
+        }
+        cout<<c<<"
 ";
     }
     return 0;
